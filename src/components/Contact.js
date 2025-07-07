@@ -37,8 +37,8 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_qgc1lf6', 'template_0tmqjwl', form.current, {
-        publicKey: '1J5GlnLISTKVyQZwX',
+        emailjs.sendForm('service_aav05nm', 'template_6ji6paa', form.current, {
+        publicKey: 'UwJgCwJ6LDrxv-dJW',
       })
       .then(
         () => {

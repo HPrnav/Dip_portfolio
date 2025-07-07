@@ -45,15 +45,10 @@ const fadeInLeft = {
     visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
 };
 
-const fadeInRight = {
-    hidden: { opacity: 0, x: 100 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
-};
 
 const Qualification = () => {
     const { ref: educationRef, inView: educationInView } = useInView({ triggerOnce: true, threshold: 0.3 });
-    const { ref: workRef, inView: workInView } = useInView({ triggerOnce: true, threshold: 0.3 });
-
+ 
     return (
         <section id="qualification" className="max-w-5xl mx-auto lg:pt-36 border-b border-black dark:border-white px-6 py-16">
             <h2 className="text-4xl font-bold text-center">QUALIFICATION</h2>

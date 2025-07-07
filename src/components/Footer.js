@@ -1,4 +1,4 @@
-import { FaWhatsapp, FaGithub, FaLinkedinIn } from "react-icons/fa6";
+import { FaWhatsapp, FaLinkedinIn } from "react-icons/fa6";
  
 const Footer = () => {
     const handleScroll = (section) => {
