@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { SquareUser, Briefcase, BookOpen, Layers, Phone, Handshake, Moon, Sun } from "lucide-react";
+import { SquareUser, BookOpen, Layers, Phone, Moon, Sun } from "lucide-react";
 
 const Navbar = () => {
     const [active, setActive] = useState("Profile");
